@@ -1,0 +1,40 @@
+----- The problem with unbalanced trees -----
+
+Een unbalanced tree kan problemen veroorzaken omdat het vreselijk nested is. Ook lijkt het lastig te worden hoe meer op een volgende waardes er worden toegevoegd, als we vervolgens 100 toevoegen en daarna 75 zitten we heel ver nested voordat we eens een aftakking maken.
+Het klinkt alsof dit de tijdsduur voor acties vreselijk omhoog schroeft.
+
+----- Balanced version of the example tree -----
+
+                ➔ empty
+            ➔ 1
+                ➔ empty
+        ➔ 2
+                ➔ empty
+            ➔ 3
+                ➔ empty
+    ➔ 4
+                ➔ empty
+            ➔ 5
+                ➔ empty
+        ➔ 6
+            ➔ empty
+➔ 7
+                ➔ empty
+            ➔ 8
+                ➔ empty
+        ➔ 9
+            ➔ empty
+    ➔ 10
+                ➔ empty
+            ➔ 11
+                ➔ empty
+        ➔ 12
+                ➔ empty
+            ➔ 13
+                ➔ empty
+
+----- The name of balancing of a tree algorithm and the URL for a Python implementation -----
+
+AVL Tree
+
+https://www.w3schools.com/python/python_dsa_avltrees.asp

@@ -1,0 +1,26 @@
+The 7014 lines have been split into 42316 words and written to 'output-data.txt'.
+
+The top 50 most common words are: a, about, all, an, and, are, as, at, but, did, draco, for, from, had, harry, have, her, him, his, in, is, it, just, me, my, no, not, now, on, potter, right, said, she, that, the, then, there, they, this, to, very, voice, was, we, were, what, with, would, you, your.
+
+Without a blacklist...
+  the distance between 'score' and 'score' is 0.
+  the distance between 'atoms' and 'ghosts' is 3.
+  the distance between 'textbook' and 'falling' is 2.
+  the distance between 'broom' and 'textbook' is 2.
+
+Using the top 50 common words as blacklist...
+  the distance between 'score' and 'score' is 0.
+  the distance between 'atoms' and 'ghosts' is 4.
+  the distance between 'textbook' and 'falling' is 3.
+  the distance between 'broom' and 'textbook' is 3.
+
+Using the top 1000 common words as blacklist...
+  the distance between 'score' and 'score' is 0.
+  the distance between 'atoms' and 'ghosts' is infinite.
+  the distance between 'textbook' and 'falling' is 17.
+  the distance between 'broom' and 'textbook' is infinite.
+
+These are not part of the main component of the word graph: basilisk, chief, derrick, falcon, forbid, founders, gross, jason, peregrine, venom, warlock.
+
+Execution took 0.572s
+

@@ -1,0 +1,6 @@
+For each of the three algorithm implementations (or four, if you want your custom algorithm to participate) run experiments to find out *approximately* how many numbers in a list it can sort in about one second.
+
+custom sort: ??? (optional)
+selection sort: ???
+merge sort: ???
+quick sort: ???

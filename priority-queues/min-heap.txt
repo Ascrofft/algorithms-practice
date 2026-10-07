@@ -1,0 +1,18 @@
+Given the following list: `[13, 12, 4, 23, 1, 7, 9, 32, 15]`. 
+
+----- Draw a min heap tree for this list. -----
+
+(The following is *not* a min heap, but just an example of how you could easily draw the 
+tree in a text file. Drawing on paper and putting a photo in this directory is also fine!)
+
+             -> 2
+         -> 3
+             -> 4
+root -> 5
+            -> 9
+         -> 1
+
+
+----- Put the list in a min heap order. -----
+
+(You should be able to explain why it is ordered like this.)

@@ -1,0 +1,22 @@
+The haystack is ordered:
+    A huge number of needles need to be found:
+        Minimizing memory usage is more important than minimizing time complexity:
+            Use the ??? search algorithm.
+        Minimizing time complexity is more important than minimizing memory usage:
+            Use the ??? search algorithm.
+    Just a single needle needs to be found:
+        Use ??? search algorithm.
+The haystack is unordered:
+    A huge number of needles need to be found:
+        Minimizing memory usage is more important than minimizing time complexity:
+            Use the ??? search algorithm.
+        Minimizing time complexity is more important than minimizing memory usage:
+            Use the ??? search algorithm.
+    Just a single needle needs to be found:
+        Use the ??? search algorithm.
+
+For each ??? choose between:
+- LINEAR
+- DICTIONARY
+- BINARY
+

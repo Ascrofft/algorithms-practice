@@ -1,0 +1,50 @@
+For each of the listed data structures and each of the listed operations, state how the time
+it takes to complete the operations depends on the number of items in the data structure.
+You can choose from these options, where `n` is the number of items in the data structure
+
+  - O(1) -- Time doesn't depend on the number of items in the list.
+  - O(log n) -- Time goes up with the number of items in the list, but less than linearly.
+  - O(n) -- Time goes up with the number of items in the list linearly.
+  - O(n*log(n)) -- Time goes up with the number of items in the list a bit more than linearly.
+  - O(n*n) -- Time goes up with the number of items in the list quadratically.
+  - N/A -- Not applicable, in case the data structure does not support this operation.
+
+If you don't know, you can do some experiments to find out!
+
+list:
+    add an element: O(1)
+    insert an element at the start: O(n)
+    remove an element with a specific value: O(n)
+    remove the last element: O(1)
+    remove the first element: O(n)
+    check if a certain value is contained: O(n)
+
+set:
+    add an element: O(1)
+    insert an element at the start: N/A
+    remove an element with a specific value: O(1)
+    remove the last element: N/A
+    remove the first element: N/A
+    check if a certain value is contained: O(1)
+
+tuple:
+    add an element: N/A
+    insert an element at the start: N/A
+    remove an element with a specific value: N/A
+    remove the last element: N/A
+    remove the first element: N/A
+    check if a certain value is contained: O(n)
+
+deque:
+    add an element: O(1)
+    insert an element at the start: O(1)
+    remove an element with a specific value: O(n)
+    remove the last element: O(1)
+    remove the first element: O(1)
+    check if a certain value is contained: O(n)
+
+dict: (note! different operations)
+    add a key+value pair: O(1)
+    get the value for a key: O(1)
+    get the key for a value: O(n)
+    remove a pair by its key: O(1)

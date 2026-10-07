@@ -1,0 +1,46 @@
+---------- algorithm 1 ---------- 
+
+n = 10, runtime = 5ms
+n = 100, runtime = 6ms
+n = 1000, runtime = 10ms
+n = 10000, runtime = 56ms
+n = 100000, runtime = 504ms
+
+time complexity: O(TODO)
+
+
+---------- algorithm 2 ---------- 
+
+n = 10, runtime = 22ms
+n = 100, runtime = 23ms
+n = 1000, runtime = 21ms
+n = 10000, runtime = 23ms
+n = 100000, runtime = 22ms
+
+time complexity: O(TODO)
+
+
+---------- algorithm 3 ---------- 
+
+n = 10, runtime = 1ms
+n = 100, runtime = 1ms
+n = 1000, runtime = 12ms
+n = 10000, runtime = 998ms
+n = 100000, runtime = 100215ms
+
+time complexity: O(TODO)
+
+
+---------- algorithm 4 ---------- 
+
+n = 10, m=10, runtime = 17ms
+n = 1000, m=10, runtime = 20ms
+n = 100000, m=10, runtime = 26ms
+n = 10, m=1000, runtime = 225ms
+n = 1000, m=1000, runtime = 644ms
+n = 100000, m=1000, runtime = 1062ms
+n = 10, m=100000, runtime = 20971ms
+n = 1000, m=100000, runtime = 62894ms
+n = 100000, m=100000, runtime = 104808ms
+
+time complexity: O(TODO)
